@@ -1,12 +1,22 @@
-# Intern Portal Frontend
+# 🌐 Intern Portal Frontend
 
 This repository contains the frontend code for the Intern Portal project.
 
-## Features
-- User dashboard
-- Responsive design
-- Integration with backend API
+## 🚀 Live Demo
 
-## Setup Instructions
-1. Clone the repo
-2. Open index.html in a browser
+🔗 [View Live Site on Netlify](https://singular-zabaione-dffb0e.netlify.app)
+
+## 🧩 Features
+
+- 📋 Intern Dashboard
+- 🎨 Responsive Design
+- 🔗 Connects to a live backend API
+- 🔄 Refreshable data view (name, referral code, donations)
+
+## ⚙️ Setup Instructions
+
+To run locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/vaibhaviboche/intern-portal-frontend.git
