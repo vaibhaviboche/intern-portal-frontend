@@ -103,7 +103,7 @@
     }
 
     function fetchData() {
-      fetch('http://127.0.0.1:5000/api/intern-info')
+      fetch('https://intern-portal-backend-s6ed.onrender.com/api/intern-info') // 🔗 your live backend URL
         .then(response => response.json())
         .then(data => {
           document.getElementById('name').textContent = data.name;
@@ -119,10 +119,7 @@
         });
     }
 
-    // Fetch data initially when page loads
     fetchData();
-
-    // Add event listener to the refresh button
     document.getElementById('refreshBtn').addEventListener('click', fetchData);
   </script>
 </body>
